@@ -1,7 +1,7 @@
 import telebot
 from WeatherManager import get_weather
 
-bot = telebot.TeleBot("1998668397:AAHYZRNcEVoZR27YeVN717k267-f1B3tTns")
+bot = telebot.TeleBot("Token")
 
 @bot.message_handler(content_types=['text'])
 
